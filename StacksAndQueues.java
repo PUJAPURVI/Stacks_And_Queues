@@ -6,11 +6,11 @@ package com.StacksAndQueues;
 public class StacksAndQueues {
     public static void main(String[] args) {
         /**
-         * Main method used for
+         * Main method used for stacks operation
          * 1)calling push method
          * 2)calling pop method
          * 3)calling pick method
-         * 4)calling printer method 1`1
+         * 4)calling printer method
          */
 
 
@@ -25,6 +25,23 @@ public class StacksAndQueues {
         stack.peek();
         stack.pop();
         stack.printer();
+
+        /**
+         * Main method used for queue operation
+         * 1)calling offer method
+         * 2)calling  printer method
+         * 3)calling poll method
+         *
+         */
+
+        MyQueueOps enqueue = new MyQueueOps();// UC3
+        enqueue.offer(56);
+        enqueue.offer(30);
+        enqueue.offer(70);
+
+        enqueue.printer();
+        enqueue.poll();
     }
-    }
+}
+
 
