@@ -28,19 +28,19 @@ public class StacksAndQueues {
 
         /**
          * Main method used for queue operation
-         * 1)calling offer method
+         * 1)calling enqueue method
          * 2)calling  printer method
-         * 3)calling poll method
+         * 3)calling dequeue method
          *
          */
 
-        MyQueueOps enqueue = new MyQueueOps();// UC3
-        enqueue.offer(56);
-        enqueue.offer(30);
-        enqueue.offer(70);
+        MyQueueOps queue = new MyQueueOps();// UC3
+        queue.enqueue(56);
+        queue.enqueue(30);
+        queue.enqueue(70);
 
-        enqueue.printer();
-        enqueue.poll();
+        queue.printer();
+        queue.dequeue();//UC4
     }
 }
 

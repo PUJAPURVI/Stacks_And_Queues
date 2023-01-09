@@ -8,8 +8,7 @@ public class MyQueueOps {
      */
 
     LinkedList<Integer> list = new LinkedList<>();
-
-    public void offer(Integer data){
+    public void enqueue(Integer data){
         /**
          * Method used for add last data
          */
@@ -17,9 +16,9 @@ public class MyQueueOps {
         list.addLast(data);
         System.out.println(list);
     }
-    public void poll(){
+    public void dequeue(){
         /**
-         * Method used for Poll First data
+         * Method used for poll first data
          */
 
         list.pollFirst();
